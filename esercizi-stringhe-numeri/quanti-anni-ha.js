@@ -11,3 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let anno = 2018;
+let nascita = 1991;
+
+let eta = anno-nascita;
+
+console.log(eta);
+console.log(100-eta);
