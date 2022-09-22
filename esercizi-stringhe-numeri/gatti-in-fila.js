@@ -21,7 +21,7 @@ let cat = 44;
 let catLine = 6;
 
 let numLine = Math.ceil(cat/catLine);
-let catMiss = numRow * catLine - cat
+let catMiss = numLine * catLine - cat
 
 console.log(`numero di file = ${numLine} `);
 console.log(`gatti mancanti = ${catMiss} `);
