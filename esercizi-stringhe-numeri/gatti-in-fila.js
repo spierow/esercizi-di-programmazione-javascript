@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+let cat = 50;
+let catRow = 5;
+
+let numRow = Math.ceil(cat/catRow);
+let catMiss = cat % numRow;
+
+console.log(`numero di file = ${numRow} `);
+console.log(`gatti mancanti = ${catMiss} `);
