@@ -17,11 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
-let cat = 50;
-let catRow = 5;
+let cat = 44;
+let catRow = 6;
 
 let numRow = Math.ceil(cat/catRow);
-let catMiss = cat % numRow;
+let catMiss = numRow * catRow - cat
 
 console.log(`numero di file = ${numRow} `);
 console.log(`gatti mancanti = ${catMiss} `);
