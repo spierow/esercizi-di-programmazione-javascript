@@ -18,10 +18,10 @@
   http://www.imparareaprogrammare.it
 */
 let cat = 44;
-let catRow = 6;
+let catLine = 6;
 
-let numRow = Math.ceil(cat/catRow);
-let catMiss = numRow * catRow - cat
+let numLine = Math.ceil(cat/catLine);
+let catMiss = numRow * catLine - cat
 
-console.log(`numero di file = ${numRow} `);
+console.log(`numero di file = ${numLine} `);
 console.log(`gatti mancanti = ${catMiss} `);
