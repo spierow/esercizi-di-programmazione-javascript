@@ -12,3 +12,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let input = 12560;
+let minuti = input / 60;
+let ora = minuti % 60;
+let secondi = ora / 60;
+console.log(minuti);
+console.log(ora);
+console.log(secondi);
